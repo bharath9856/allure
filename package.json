@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bharath9856/Allure-reports-for-cypress.git"
+    "url": "git+https://github.com/bharath9856/allure.git"
   },
   "author": "Bharath",
   "license": "ISC",
