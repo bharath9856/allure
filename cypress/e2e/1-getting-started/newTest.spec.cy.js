@@ -19,7 +19,7 @@ describe("User Test Suite", () => {
           cy.get('#txtUsername').type(user.username);
           cy.get('#txtPassword').type(user.password);
           cy.get('#btnLogin').click();
-          // Add more test steps here
+          // Add more test steps
         
         });
     
