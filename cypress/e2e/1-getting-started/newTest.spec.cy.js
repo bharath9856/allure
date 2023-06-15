@@ -4,7 +4,7 @@ const User = require("../fixtures/users.json")
 describe("User Test Suite", () => {
     beforeEach(() => {
       // cy.fixture("users").then((usersData) => {
-      //   const users = usersData.users;
+      //   cnst users = usersData.users;
 
         
       //   });
