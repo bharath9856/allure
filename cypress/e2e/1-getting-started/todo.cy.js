@@ -98,7 +98,7 @@ describe('example to-do app', () => {
 
       // After filtering, we can assert that there is only the one
       // incomplete item in the list.
-      cy.get('.todo-lit li')
+      cy.get('.todo-list li')
         .should('have.length', 1)
         .first()
         .should('have.text', 'Walk the dog')
