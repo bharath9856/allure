@@ -1,0 +1,13 @@
+name: Allure Test
+on: [push]
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/check@v2.3.4
+      - name: Cypress.io
+        uses: cypress-io/github-action@v2.9.7
+        with:
+          start: npm start
+        
